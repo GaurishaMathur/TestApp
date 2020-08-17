@@ -6,7 +6,7 @@ tools {
  stages {
    stage('SCM CheckOut'){
       steps {
-        git 'https://github.com/GaurishaMathur/TestApp.git'
+        git 'https://github.com/GaurishaMathur/TestApp'
         }
         }
         stage('Compile-Package'){
